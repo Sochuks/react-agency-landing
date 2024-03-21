@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
 
         {/* Navbar Links */}
-        <ul className='flex items-center gap-4 sm:hidden md:flex'>
+        <ul className='hidden items-center gap-4 md:flex'>
             <li>Home</li>
             <li>About</li>
             <li>Services</li>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </ul> 
 
         {/* Menu Button */}
-        <div className='flex lg:hidden' onClick={toggleNav}>
+        <div className='flex md:hidden' onClick={toggleNav}>
             {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             
         </div>
