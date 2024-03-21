@@ -1,10 +1,12 @@
 import { useState } from 'react'
 
+import Nav_bar from './Components/Navbar'
+
 function App() {
 
   return (
     <>
-      <div className='text-red-400 font-medium text-4xl'>Lorem ipsum dolor sit amet.</div>
+      <Nav_bar />
     </>
   )
 }
