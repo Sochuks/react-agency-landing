@@ -2,6 +2,13 @@ import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 
 const Navbar = () => {
+    // navbar state
+    const [nav, setNav] = useState(true);
+
+    const toggleNav = () =>{
+        setNav(!nav);
+    }
+
   return (
     <nav className='flex justify-between items-center max-w-[1240px] mx-auto px-4'>
         {/* logo */}
@@ -17,13 +24,14 @@ const Navbar = () => {
             <li>Contact</li>
         </ul> 
 
-        {/* CTA Button */}
-        <div>
-            <AiOutlineMenu size={20} />
+        {/* Menu Button */}
+        <div onClick={toggleNav}>
+            {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+            
         </div>
 
         {/* Mobile Menu */}
-        <div className='fixed left-0 top-0 w-4/12 h-full border-r border-r-gray-900 bg-yellow-100'>
+        <div className={!nav ? `fixed left-0 top-0 w-4/12 h-full border-r border-r-gray-900 bg-yellow-100 ease-in-out duration-500` : `fixed left-[-150px]`}>
             <ul className='p-4 uppercase'>
                 <li className='p-4 border-b border-gray-600'>Home</li>
                 <li className='p-4 border-b border-gray-600'>About</li>
