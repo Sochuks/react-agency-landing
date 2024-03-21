@@ -25,7 +25,7 @@ const Navbar = () => {
         </ul> 
 
         {/* Menu Button */}
-        <div className='flex md:hidden' onClick={toggleNav}>
+        <div className='block md:hidden' onClick={toggleNav}>
             {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             
         </div>

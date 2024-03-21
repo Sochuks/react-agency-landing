@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Nav_bar />
+      
       <Hero />
     </>
   )
