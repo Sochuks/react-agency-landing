@@ -6,20 +6,23 @@ const Hero = () => {
     // Hero
     <section className='py-6'>
         {/* container */}
-        <div className='flex flex-col-reverse items-center text-center px-6 max-w-[1240px] mx-auto lg:py-10 md:flex-row'>
-            {/* Text */}
-            <div className='flex flex-col mb-10 space-y-2 md:mt-10 md:w-1/2 md:text-left'>
-                <p className='font-bold uppercase text-md md:-mb-2'>We take it step-by-step</p>
-                <h1 className='font-bold text-3xl md:text-6xl sm:text-5xl'>Manage Your Projects</h1>
-                <p className='max-w-xl text-xl text-gray-500 py-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Quaerat minima ad dolor odit, ea sint? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <button className='mx-auto bg-[#00df9a] my-6 py-3 text-base rounded-md w-[200px] font-medium md:mx-0'>Get Started</button>
-            </div> 
-            {/* Image */}
-            <div className='md:w-1/2'>
-                <img src={HeroImg} height="900px" width="900px" alt="" />
+        <div className='flex flex-col-reverse justify-between items-center max-w-[900px] mx-auto space-y-0 text-center md:flex-col'>
+
+          {/* Text container*/}
+          <div className="flex flex-col space-y-2 p-4">
+              <p className='text-xl text-primaryColor font-bold uppercase md:text-2xl'>Lorem ipsum dolor sit.</p>
+              <h1 className='text-5xl font-bold mb-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+              <p className="text-xl text-gray500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia maxime eveniet, fuga possimus beatae culpa?</p>
+          </div>
+            {/* buttons */}
+            <div>
+                <button className='bg-gradient-to-r from-green-400 to-green-700 px-4 py-2 rounded-md font-medium text-whiteColor'>
+                    Start Free Trial
+                </button>
             </div>
-                
+            {/* Image */}
+              <img src={HeroImg} alt="" className='h-[700px]' />
+            
         </div>
 
     </section>

@@ -15,11 +15,10 @@ export default {
     extend: {
       // Portfolio Color Scheme
       colors:{
-        bgColor: '#1f1f38',
-        bg2Color: '#2c2c6c',
-        primaryColor: '4db5ff',
-        primary2Color: 'rgb(77, 181, 125, 0.4)',
-        whiteColor: '#fff',
+        bgColor: '#B3C2F9',
+        primaryColor: '#0D1872',
+        darkColor: '#363C54',
+        whiteColor: 'rgb(2555, 255, 255)',
         lightColor: 'rgb(255, 255, 255, 0.6)',
       },
     },
