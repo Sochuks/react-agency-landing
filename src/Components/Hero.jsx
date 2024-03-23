@@ -6,7 +6,7 @@ const Hero = () => {
     // Hero
     <section className='py-6'>
         {/* container */}
-        <div className='flex flex-col-reverse justify-between items-center max-w-[900px] mx-auto space-y-0 text-center md:flex-col'>
+        <div className='flex flex-col-reverse items-center max-w-[900px] mx-auto space-y-0 text-center md:flex-col'>
 
           {/* Text container*/}
           <div className="flex flex-col space-y-2 p-4">
@@ -21,7 +21,7 @@ const Hero = () => {
                 </button>
             </div>
             {/* Image */}
-              <img src={HeroImg} alt="" className='h-[700px] mx-auto' />
+              <img src={HeroImg} alt="" className='w-[700px]' />
             
         </div>
 
