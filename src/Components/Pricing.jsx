@@ -32,10 +32,13 @@ const Pricing = () => {
 
             {/* Toggle Price */}
             <div>
-                 <ToggleButton />   
+                 <ToggleButton setIsAnnual={setIsAnnual} isAnnual={isAnnual} />   
             </div>
             
-
+            {/* Map Prices to get objects */}
+            {prices.map(
+                
+            )}
         {/* container */}
         <div className="container mx-auto grid md:grid-cols-3 p-10 gap-16 md:py-16">
             {/* First Price */}
