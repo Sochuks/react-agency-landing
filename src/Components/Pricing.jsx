@@ -1,13 +1,21 @@
 import React from 'react'
 import react_icon from '../assets/react.svg'
-import check_icon from '../assets/icons/check.png'
-import close_icon from '../assets/icons/close.png'
+import { IoClose, IoCheckmark } from "react-icons/io5";
 
 const Pricing = () => {
   return (
     <section>
+            {/* heading */}
+            <div className='page-header'>
+                <h2 className='text-4xl font-semibold text-primaryColor py-2'>Select The Plan for 
+                    <span className='text-yellow-400'> Your Needs</span>
+                </h2>
+                <p>Choose the Perfect Plan to Unlock Customized Features</p>
+            </div>
+            {/* Toggle Price */}
+
         {/* container */}
-        <div className="container max-w-[1200px] mx-auto grid md:grid-cols-3 p-10 gap-16">
+        <div className="container mx-auto grid md:grid-cols-3 p-10 gap-16 md:py-16">
             {/* First Price */}
             <div className='flex flex-col w-full p-4 my-4 bg-gray-200 rounded-lg border shadow-xl hover:scale-x-105 duration-300'>
                 {/* top */}
@@ -19,14 +27,14 @@ const Pricing = () => {
                 <div className='flex flex-col space-y-2'>
                     <div className='flex items-center gap-6'>
                         <span className='p-1 bg-gray-200 rounded-full'>
-                            <img src={check_icon} width={30} height={30} alt="" />
+                        <IoCheckmark />
                         </span>
                         <p>500 GB Storage</p>
                     </div>
 
                     <div className='flex items-center gap-6'>
                         <span className='p-1 bg-bgColor rounded-full'>
-                            <img src={close_icon} width={30} height={30} alt="" />
+                            <IoClose />
                         </span>
                         <p>500 GB Storage</p>
                     </div>
@@ -47,14 +55,14 @@ const Pricing = () => {
                 <div className='flex flex-col space-y-2'>
                     <div className='flex items-center gap-6'>
                         <span className='p-1 bg-gray-200 rounded-full'>
-                            <img src={check_icon} width={30} height={30} alt="" />
+                            <IoCheckmark />
                         </span>
                         <p>500 GB Storage</p>
                     </div>
 
                     <div className='flex items-center gap-6'>
                         <span className='p-1 bg-bgColor rounded-full'>
-                            <img src={close_icon} width={30} height={30} alt="" />
+                            <IoClose />
                         </span>
                         <p>500 GB Storage</p>
                     </div>
@@ -75,14 +83,14 @@ const Pricing = () => {
                 <div className='flex flex-col space-y-2'>
                     <div className='flex items-center gap-6'>
                         <span className='p-1 bg-gray-200 rounded-full'>
-                            <img src={check_icon} width={30} height={30} alt="" />
+                            <IoCheckmark />
                         </span>
                         <p>500 GB Storage</p>
                     </div>
 
                     <div className='flex items-center gap-6'>
                         <span className='p-1 bg-bgColor rounded-full'>
-                            <img src={close_icon} width={30} height={30} alt="" />
+                            <IoClose />
                         </span>
                         <p>500 GB Storage</p>
                     </div>
