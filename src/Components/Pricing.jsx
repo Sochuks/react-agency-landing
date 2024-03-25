@@ -1,6 +1,7 @@
 import React from 'react'
 import react_icon from '../assets/react.svg'
 import { IoClose, IoCheckmark } from "react-icons/io5";
+import ToggleButton from './ToggleButton';
 
 const Pricing = () => {
   return (
@@ -15,7 +16,7 @@ const Pricing = () => {
 
             {/* Toggle Price */}
             <div>
-                    
+                 <ToggleButton />   
             </div>
             
 
