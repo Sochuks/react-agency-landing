@@ -37,10 +37,10 @@ const Pricing = () => {
             </div>
 
             {/* Second Price */}
-            <div className='flex flex-col w-full p-4 my-4 bg-primaryColor rounded-lg border shadow-xl hover:scale-x-105 duration-300'>
+            <div className='flex flex-col w-full p-4 my-4 bg-yellow-200 rounded-lg border shadow-xl hover:scale-x-105 duration-300'>
                 {/* top */}
                 <img src={react_icon} alt="" className='w-20 mx-auto mt-[-3rem]' />
-                <h3 className='text-2xl font-bold text-center py-8 md:'>Economy Suit</h3>
+                <h3 className='text-2xl font-bold text-center py-8'>Economy Suit</h3>
                 <p className='text-center text-4xl font-bold'>$150</p>
                 <button className='bg-green-600 rounded-lg font-edium my-6 px-6 py-3 text-white'>Get Started</button>
                 {/* features */}
