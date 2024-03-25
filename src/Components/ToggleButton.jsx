@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 
-const ToggleButton = () => {
-    const [isAnnual, setIsAnnual] = useState(false)
-
+const ToggleButton = ({isAnnual, setIsAnnual}) => {
 
   return (
     <div className='flex max-w-[224px] mx-auto justify-center'>
