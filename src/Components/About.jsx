@@ -30,7 +30,7 @@ const About = () => {
                     <p className='mb-8 leading-relaxed text-slate-700 max-w-md'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde est doloremque obcaecati, dolore quibusdam magnam!</p>
                     {/* form */}
                     <div className='flex items-center max-w-xl space-x-2'>
-                        <input type="text" className='w-[350px] h-12 border border-gray-400 rounded-md' />
+                        <input type="text" className='w-[350px] p-3 h-12 border border-gray-400 rounded-md' />
                         <button className='bg-green-800 rounded-md'>S</button>
                     </div>
                     {/* counters */}
