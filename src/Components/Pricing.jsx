@@ -18,7 +18,7 @@ const Pricing = () => {
         {name: 'Standard Plan', price: 500 * 12* 0.8},
     ]
 
-    const prices = 
+    const prices = isAnnual ? yearlyPrices : monthlyPrices
 
   return (
     <section>
