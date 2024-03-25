@@ -4,8 +4,21 @@ import { IoClose, IoCheckmark } from "react-icons/io5";
 import ToggleButton from './ToggleButton';
 
 const Pricing = () => {
+    const [isAnnual, setIsAnnual] = useState(false)
 
+    monthlyPrices = [{
+        name: 'Starter Plan', price: 150 },
+        {name: 'Basic Plan', price: 250},
+        {name: 'Standard Plan', price: 500},
+    ]
 
+    yearlyPrices = [
+        {name: 'Starter Plan', price: 150 * 12* 0.8},
+        {name: 'Basic Plan', price: 250 * 12* 0.8},
+        {name: 'Standard Plan', price: 500 * 12* 0.8},
+    ]
+
+    const prices = 
 
   return (
     <section>
