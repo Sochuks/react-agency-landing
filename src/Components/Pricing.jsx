@@ -63,9 +63,13 @@ const Pricing = () => {
             </div>
 
             {/* Second Price */}
-            <div className='flex flex-col h-full p-6 bg-yellow-400/85 rounded-2xl border border-slate-200 shadow shadow-slate-950/5 hover:scale-x-105 duration-300'>
+            <div className='relative flex flex-col h-full p-6 bg-yellow-400/85 rounded-2xl border border-slate-200 shadow shadow-slate-950/5 hover:scale-x-105 duration-300'>
                 {/* popularity tag */}
-                
+                <div className='absolute top-0 right-0 mr-6 -mt-3'>
+                    <div className='items-center text-xs font-semibold py-1.5 px-3 bg-green-400 text-white rounded-full shadow-sm shadow-slate-950/5'>
+                        Most Popular
+                    </div>
+                </div>
                 
                 {/* top */}
                 <img src={react_icon} alt="" className='w-20 mx-auto mt-[-3rem]' />
