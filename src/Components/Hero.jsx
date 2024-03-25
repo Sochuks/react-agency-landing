@@ -8,12 +8,6 @@ const Hero = () => {
         {/* container */}
         <div className='flex flex-col-reverse items-center max-w-[900px] mx-auto space-y-0 text-center md:flex-col'>
 
-            <div
-                class="absolute left-0 top-64 -z-10 h-72 w-72 rounded-full bg-violet-500 opacity-10 blur-3xl dark:bg-violet-700"
-              ></div>
-              <div
-                class="absolute right-0 top-24 -z-10 h-72 w-72 rounded-full bg-danger-500 opacity-10 blur-3xl dark:bg-danger-800"
-            ></div>
           {/* Text container*/}
           <div className="flex flex-col space-y-2 p-4">
               <p className='text-xl text-primaryColor font-bold uppercase md:text-2xl'>Lorem ipsum dolor sit.</p>
