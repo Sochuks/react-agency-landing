@@ -11,9 +11,9 @@ const Pricing = () => {
     let standard = 500
 
   return (
-    <section>
+    <section className='pt-20' >
             {/* heading */}
-            <div className='page-header'>
+            <div className='page-header py-12'>
                 <h2 className='text-4xl font-semibold text-primaryColor py-2'>Select The Plan for 
                     <span className='text-yellow-400'> Your Needs</span>
                 </h2>
