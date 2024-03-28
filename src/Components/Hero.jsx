@@ -12,12 +12,12 @@ const Hero = () => {
                 <p className='font-bold text-primaryColor uppercase text-base md:-mb-2'>We take it step-by-step</p>
                 <h1 className='font-bold py-1 bg-gradient-to-br from-primaryColor via-[#6DAFA7] to-primaryColor 
                 bg-clip-text text-transparent text-3xl md:text-6xl sm:text-5xl'>Manage Your Projects</h1>
-                <p className='max-w-xl text-xl text-slate-500 py-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                <p className='max-w-xl text-xl text-slate-500 px-4 md:px-0 py-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Quaerat minima ad dolor odit, ea sint? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
                 <div className="pt-2 pb-6">
                     <button className='bg-gradient-to-r from-green-400 to-green-700 px-12 py-4 
                     rounded-md font-medium text-whiteColor text-base' href="#">
-                            Sign In 
+                            Sign In →
                     </button>
                 </div>
                 

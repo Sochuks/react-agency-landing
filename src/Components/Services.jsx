@@ -37,7 +37,7 @@ const Services = () => {
 
                     <button className='inline-flex items-center mx-auto text-base py-2 
                     text-green-600 font-semibold gap-1 transition-colors ease-in-out duration-150 hover:text-primaryColor hover:scale-100'>
-                        Learn More 
+                        Learn More →
                     </button>
 
                 </div>
@@ -53,7 +53,7 @@ const Services = () => {
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
                     text-green-600 font-semibold gap-1 transition-colors ease-in-out duration-150 hover:text-primaryColor hover:scale-100'>
-                        Learn More 
+                        Learn More →
                     </button>
 
                     </div>
@@ -69,7 +69,7 @@ const Services = () => {
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
                     text-green-600 font-semibold gap-1 transition-colors ease-in-out duration-150 hover:text-primaryColor hover:scale-100'>
-                        Learn More 
+                        Learn More →
                     </button>
 
                     </div>
@@ -87,7 +87,7 @@ const Services = () => {
 
                     <button className='inline-flex items-center mx-auto text-base py-2 
                     text-green-600 font-semibold gap-1 transition-colors ease-in-out duration-150 hover:text-primaryColor hover:scale-100'>
-                        Learn More 
+                        Learn More →
                     </button>
 
                 </div>
@@ -103,7 +103,7 @@ const Services = () => {
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
                     text-green-600 font-semibold gap-1 transition-colors ease-in-out duration-150 hover:text-primaryColor hover:scale-100'>
-                        Learn More 
+                        Learn More →
                     </button>
 
                     </div>
@@ -119,7 +119,7 @@ const Services = () => {
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
                     text-green-600 font-semibold gap-1 transition-colors ease-in-out duration-150 hover:text-primaryColor hover:scale-100'>
-                        Learn More 
+                        Learn More →
                     </button>
 
                     </div>
