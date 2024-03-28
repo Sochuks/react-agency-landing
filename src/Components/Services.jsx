@@ -12,8 +12,17 @@ const Services = () => {
         {/*Background Image Overlay */}
         <div className='absolute inset-0'>
             <img src={backImg} alt="" className='bg-no-repeat object-cover object-center h-full w-full filter blur-sm' />
-            <div className='absolute inset-0 bg-white opacity-50'></div>
+            <div className='absolute inset-0 bg-white opacity-80'></div>
         </div>
+
+        {/* heading */}
+        <div className='relative page-header py-12'>
+                <h2 className='text-4xl font-semibold text-primaryColor py-2'>Increase Productivity with 
+                    <span className=' text-yellow-400'> Prime</span><span className='font-medium text-green-900'>Time</span>
+                </h2>
+                <p className='text-base caret-emerald-700'>Streamlining your workflow for maximum efficiency and succes</p>
+            </div>
+
         {/* container */}
         <div className='relative container mx-auto md:grid md:grid-cols-3 md:py-6'>
                 {/* Service 1 */}
@@ -23,7 +32,7 @@ const Services = () => {
                     </div>
                     <div>
                         <h4 className='text-xl font-semibold text-primaryColor'>Task Management</h4>
-                        <p className='text-base text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
+                        <p className='text-base text-gray-600 md:max-w-64 md:mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
                     </div>
 
                     <button className='inline-flex items-center mx-auto text-base py-2 
@@ -39,7 +48,7 @@ const Services = () => {
                         </div>
                         <div>
                             <h4 className='text-xl font-semibold text-primaryColor'>Innovative Solutions</h4>
-                            <p className='text-base text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
+                            <p className='text-base text-gray-600 md:max-w-64 md:mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
                         </div>
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
@@ -55,7 +64,7 @@ const Services = () => {
                         </div>
                         <div>
                             <h4 className='text-xl font-semibold text-primaryColor'>Track Checklist</h4>
-                            <p className='text-base text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
+                            <p className='text-base text-gray-600 md:max-w-64 md:mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
                         </div>
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
@@ -73,7 +82,7 @@ const Services = () => {
                     </div>
                     <div>
                         <h4 className='text-xl font-semibold text-primaryColor'>Prioritize Task</h4>
-                        <p className='text-base text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
+                        <p className='text-base text-gray-600 md:max-w-64 md:mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
                     </div>
 
                     <button className='inline-flex items-center mx-auto text-base py-2 
@@ -89,7 +98,7 @@ const Services = () => {
                         </div>
                         <div>
                             <h4 className='text-xl font-semibold text-primaryColor'>Taskbased Goals</h4>
-                            <p className='text-base text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
+                            <p className='text-base text-gray-600 md:max-w-64 md:mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
                         </div>
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
@@ -105,7 +114,7 @@ const Services = () => {
                         </div>
                         <div>
                             <h4 className='text-xl font-semibold text-primaryColor'>Save Cost</h4>
-                            <p className='text-base text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
+                            <p className='text-base text-gray-600 md:max-w-64 md:mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, temporibus?</p>
                         </div>
 
                         <button className='inline-flex items-center mx-auto text-base py-2 
