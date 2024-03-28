@@ -2,7 +2,7 @@
   "name": "react-agency-landing",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Sochuks.github.io/react-agency-landing",
+  "homepage": "https://sochuks.github.io/react-agency-landing/",
   "type": "module",
   "scripts": {
     "dev": "vite",
